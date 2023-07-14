@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Lato"}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-dark-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+	<div class="w3-container">
+		<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+		<i class="fa fa-remove"></i>
+		</a>
+		<img src="pictures/profile.jpg" style="width:45%;" class="w3-round"><br><br>
+ 		<h4><b>RESUME</b></h4>
+		<p class="w3-text-white">Template by W3.CSS</p>
+		
+ 	</div>
+ 	<div class="w3-bar-block">
+		<a href="home.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw w3-margin-right"></i>ABOUT ME</a>
+		<a href="personaldetails.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-circle fa-fw w3-margin-right"></i>PERSONAL DETAILS</a>
+		<a href="educationalbackground.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>EDUCATIONAL BACKGROUND</a> 
+		<a href="extra-curricular.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-briefcase fa-fw w3-margin-right"></i>EXTRA-CURRICULAR</a>
+		<a href="skillsandlanguage.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-wrench fa-fw w3-margin-right"></i>SKILLS & LANGUAGE</a>
+		<a href="reference.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-cyan"><i class="fa fa-address-card fa-fw w3-margin-right"></i>REFERENCE</a>	
+	</div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" 	onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Header -->
+<header>
+	<style>
+	body header{
+		
+		margin: 0;
+  		font-family: "Montserrat", Times, serif;
+		
+	}
+	
+	.hero-image {
+	  background-image: url("pictures/petak.jpg");
+	  background-color: #cfcece;
+	  height: 200px; 
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	}
+	
+	.hero-text {
+	  text-align: center;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color: rgb(59, 9, 59);
+	}
+	</style>
+	</head>
+	<body>
+	
+	<div class="hero-image">
+	  <div class="hero-text">
+		<h2 style="font: size 20px;"><b>NOR AIN SOLIHAH BINTI OSMAN</b></h2>
+		<h3><b>ainsolihah64@gmail.com</b></h3>
+		<h4 style="font-size: 20px ;"><b>+601139633701</b></h4>
+	  </div>
+	</div>
+</header>
+
+ <!--Content-->
+ <div class="w3-container w3-padding-large w3-light-blue" style="margin-bottom:32px">
+	<h4><i class="fa fa-envelope fa-fw w3-margin-right"></i>ainsolihah64@gmail.com</h4>
+	<h4><i class="fa fa-phone fa-fw w3-margin-right"></i>+6011-3963 3701</h4>
+	<h4><i class="fa fa-whatsapp fa-fw w3-margin-right"></i>+6011-3963 3701</h4>
+	<h4><i class="fa fa-instagram fa-fw w3-margin-right"></i>@nr.aihah</h4>
+	<h4><i class="fa fa-map-marker fa-fw w3-margin-right"></i>No. 15B, Jalan Air Terjun, Kampung Sri Gunung Pulai, 81000 Kulai, Johor</h4>
+<br>
+<br>
+<br>
+  <div class="w3-blue-grey w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+<br>
+<footer>
+<p style="text-align:center; font-size:10px;">Copyright 2023&copy Nor Ain Solihah Osman. Recommended browser: Google Chrome. Resolution 1108 x 1228. Last update: 14<sup>th</sup> JULY 2023. <br>This site for assignment purpose only.</p></p>
+</footer>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
